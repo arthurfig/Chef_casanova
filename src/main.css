@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: auto;
-    height: 800;/*800 ou então deixar auto*/
+    max-width: auto;
+    max-height: 800;/*800 ou então deixar auto*/
     background:black;
     opacity: 0.9;
     background-color: aliceblue 50%;
