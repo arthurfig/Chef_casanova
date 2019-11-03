@@ -1,0 +1,184 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    background: black;
+    
+}
+
+body {
+    max-width: auto;
+    max-height: auto;
+    background-image: url(/img/back_full_photo_contact_.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a:link, a:visited {
+	text-decoration: none
+	}
+
+a:active {
+	text-decoration: none
+	}
+
+
+header {
+    display: grid;
+    grid-area: h;
+    width: 365px;
+    margin: 0;
+    
+}
+
+.container{
+    max-width: auto;
+    max-height: auto;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    background-repeat: no-repeat;
+    grid-template-areas: "h n";
+}
+
+nav {
+    width: 843px;
+    display: grid;
+    height: 100px;
+    background: transparent;
+    grid-area: n;
+
+}
+.menu {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.menu a {
+  color: white;
+    text-decoration: none;
+}
+
+
+.menu-nav ul {
+    margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+.menu-nav a {
+    margin: 0;
+  font-size: 1.70em;
+    padding: 0px 40px 1px 40px;
+    justify-content: space-around;
+    vertical-align: top;    
+    margin-bottom: 350px;
+
+}
+
+
+.menu-nav a:hover {
+  color: saddlebrown;
+
+}
+
+.frase {
+    max-width: AUTO;
+    display: block;
+    font-family: 'Niconne', cursive;
+    text-align: center;
+    font-size: 36px;
+    line-height: 44px; 
+    color: white;
+    text-decoration: inherit;
+    justify-content: center;
+
+    }
+/*slide imagens*/
+
+
+
+.carrossel{
+display: block;
+
+  width: 300px;
+  height: 300px;
+    margin-left: 650px;
+
+        
+
+    
+}
+ 
+.carrossel img {
+  width: 300px;
+  height: 300px;
+  background: red;
+  -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 1s;
+    border-radius: 20px;
+}
+
+.carrossel img:hover{
+    
+  width: 500px;
+  height: 500px;
+}
+
+.wall{
+  display: none;
+  width: 100%;
+  height: 100%;
+    font-size: 30px;
+    align-items: flex-end;
+    
+
+
+}
+
+
+
+
+
+.wall a {
+    vertical-align: middle;
+    color: white;
+}
+
+/* Corzinha de fundo para diferenciar */
+
+ 
+.wall:target{
+  display: flex;
+}
+
+
+
+/*Abertura de página*/
+
+.fadeIn {
+-webkit-animation: fadeIn 3s ease-in-out;
+-moz-animation: fadeIn 3s ease-in-out;
+-o-animation: fadeIn 3s ease-in-out;
+animation: fadeIn 3s ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}

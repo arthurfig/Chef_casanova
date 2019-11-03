@@ -1,0 +1,235 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    background: black;
+    
+}
+
+body {
+    max-width: auto;
+    max-height: auto;
+    background-image: url(/img/back_full_photo_contact_.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a:link, a:visited {
+	text-decoration: none
+	}
+
+a:active {
+	text-decoration: none
+	}
+
+
+header {
+    display: grid;
+    grid-area: h;
+    width: 365px;
+    margin: 0;
+    
+}
+
+.container{
+    max-width: auto;
+    max-height: auto;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    background-repeat: no-repeat;
+    grid-template-areas: "h n";
+}
+/*-----------------------Inicio do Menu---------------------*/
+nav {
+    width: 843px;
+    display: grid;
+    height: 100px;
+    background: transparent;
+    grid-area: n;
+
+}
+.menu {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: white;
+    text-decoration: none;
+}
+
+
+
+.menu-nav a {
+    margin: 0;
+  font-size: 1.70em;
+    padding: 0px 40px 1px 40px;
+    justify-content: space-around;
+    vertical-align: top;    
+    margin-bottom: 350px;
+
+}
+
+.menu-nav a:hover {
+  color: saddlebrown;
+
+}
+
+/*-----------------------------Fim do Menu---------------------------*/
+
+footer > div:nth-child(){
+    max-width: auto;
+    max-height: auto;
+    display: grid;
+    justify-content: center;
+    margin: 0;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+
+}
+footer form {
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+footer h1 {
+    color: #2e0d00;
+    font-family: Abril Fatface;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    display: grid;
+    grid-area: fale;
+    margin-top: 100px;
+
+}
+
+footer span {
+    color: #2e0d00;
+    font-family: Niconne;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+        
+}
+
+footer ul {
+    
+    margin: 0;
+     
+    
+}
+
+footer .message {
+    width: 900px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+footer .pai {
+    width: 500px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    
+}
+
+
+
+footer .nome {
+    display: flex;
+    grid-area: nam;
+    max-width: 700px;
+    flex-wrap: wrap;
+    margin: 0;
+        align-items: center;
+
+}
+
+
+
+
+footer .celular {
+    display: flex;
+    grid-area: tel;
+    max-width: 650px;
+    flex-wrap: wrap;
+    margin: 0;
+        align-items: center;
+
+}
+
+footer .email {
+    display: flex;
+    grid-area: mail;
+    max-width: 650px;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
+}
+
+footer .descricao {
+    display: flex;
+    grid-area: des;
+    max-width: 600px;
+    flex-wrap: nowrap;
+    height: 50px;
+    margin: 0 auto;
+}
+
+
+footer .button {
+    display: flex;
+    grid-area: send;
+    max-width: 600px;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    justify-content: flex-end;
+
+}
+
+
+footer .socialnet{
+    margin-top: 50px;
+    display: flex;
+    grid-area: social;
+    max-width: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+        
+}
+/*Abertura de página*/
+
+.fadeIn {
+-webkit-animation: fadeIn 3s ease-in-out;
+-moz-animation: fadeIn 3s ease-in-out;
+-o-animation: fadeIn 3s ease-in-out;
+animation: fadeIn 3s ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
