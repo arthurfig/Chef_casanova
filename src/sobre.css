@@ -1,7 +1,8 @@
 html {
     margin: 0;
     padding: 0;
-    height: 800px;/*800 ou então deixar auto*/
+    max-width: auto;
+    max-height: auto;/*800 ou então deixar auto*/
     background:black;
     opacity: 0.9;
 }
