@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    max-width: auto;
-    max-height: 800;/*800 ou então deixar auto*/
+    width: auto;
+    height: 800;/*800 ou então deixar auto*/
     background:black;
     opacity: 0.9;
     background-color: aliceblue 50%;
@@ -40,7 +40,7 @@ a:active {
 
 
 .container img {
-    margin-left: 20px;
+    margin-left: 220px;
     margin-top: 20px;
 }
 

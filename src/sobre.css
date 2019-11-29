@@ -1,8 +1,7 @@
 html {
     margin: 0;
     padding: 0;
-    max-width: auto;
-    max-height: auto;/*800 ou então deixar auto*/
+    height: 800px;/*800 ou então deixar auto*/
     background:black;
     opacity: 0.9;
 }
@@ -102,6 +101,8 @@ nav {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  height: 50px;
+  padding-top: 10px;
     
 }
 
@@ -111,24 +112,24 @@ nav {
   color: white;
     text-decoration: none;
 }
-
+.menu-nav{
+    height: 50px;
+}
 
 .menu-nav ul {
-    margin: 0;
   display: flex;
   flex-wrap: wrap;
     justify-content: space-around;
     justify-content: flex-start;
+    height: 20px;
 }
 .menu-nav a {
-    margin: 0;
   font-size: 1.70em;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0px 20px 1px 40px;
-    margin-bottom: 700px;
+    margin: 0px 40px 1px 40px;
     justify-content: space-around;
     justify-content: flex-start;
+    height: 30px;
 
 }
 
@@ -136,6 +137,17 @@ nav {
 .menu-nav a:hover {
   color: saddlebrown;
 
+}
+.textabout{
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+
+    /* serviços_canto */
+    text-shadow: 0px 4px 4px purple;
 }
 
 

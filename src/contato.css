@@ -134,46 +134,41 @@ footer .message {
 }
 
 footer .pai {
-    width: 500px;
+    width: 400px;
     height: 30px;
     display: flex;
     align-items: center;
-
     margin: 0;
+    padding: 20px;
     
 }
 
-
+.ajustform label{
+    padding: 10px;
+}
 
 footer .nome {
     display: flex;
     grid-area: nam;
-    max-width: 700px;
-    flex-wrap: wrap;
-    margin: 0;
-        align-items: center;
+    max-width: 400px;
+    flex-wrap: nowrap;
+    align-items: center;
 
 }
-
-
-
 
 footer .celular {
     display: flex;
     grid-area: tel;
-    max-width: 650px;
-    flex-wrap: wrap;
-    margin: 0;
+    max-width:400px;
+    flex-wrap: nowrap;
         align-items: center;
 
 }
 
 footer .email {
     display: flex;
-    grid-area: mail;
-    max-width: 650px;
-    flex-wrap: wrap;
-    margin: 0;
+    max-width: 400px;
+    flex-wrap: nowrap;
     align-items: center;
 }
 
@@ -183,7 +178,6 @@ footer .descricao {
     max-width: 600px;
     flex-wrap: nowrap;
     height: 50px;
-    margin: 0 auto;
 }
 
 
@@ -232,4 +226,23 @@ animation: fadeIn 3s ease-in-out;
 @keyframes fadeIn {
 0% { opacity: 0; }
 100% { opacity: 1; }
+}
+
+
+.ajuste {
+    margin: 0px;
+    max-width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#name,#email,#feddback,#celular, ::placeholder{
+    font-family: Niconne;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+}
+.messenger {
+    display: flex;
+    flex-wrap: wrap;
 }
